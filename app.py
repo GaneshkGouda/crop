@@ -13,10 +13,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
-@app.route('/team')
+    return render_template("home.html")
+@app.route('/predict')
 def team():
-    return render_template("team.html")
+    return render_template("predict.html")
 
 
 
